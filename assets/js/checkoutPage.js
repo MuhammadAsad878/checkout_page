@@ -3,7 +3,7 @@ const dropSummary = document.querySelector(".dropSummary");
 const dropSummaryIcon = document.querySelector(".orderSummary button img");
 const expDate = document.querySelector("#expiryDate");
 const cardNo = document.querySelector("#creditCardNumber");
-const email = document.querySelector('#UserEmail');
+const email = document.querySelector('.UserEmail');
 const emailMessage = document.querySelector('.emailMessage');
 dropSummaryBtn.addEventListener("click", () => {
   console.log('clicked');
