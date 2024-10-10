@@ -8,11 +8,11 @@ const emailMessage = document.querySelector('.emailMessage');
 dropSummaryBtn.addEventListener("click", () => {
   console.log('clicked');
   if (dropSummary.style.display == "none") {
-    dropSummaryIcon.src = "./assets/images/up_drop.svg";
+    dropSummaryIcon.src = "assets/images/up_drop.svg";
     dropSummary.style.display = "grid";
   } else{
     dropSummary.style.display = "none";
-    dropSummaryIcon.src = "../assets/images/down_drop.svg";
+    dropSummaryIcon.src = "assets/images/down_drop.svg";
   }
 });
 
