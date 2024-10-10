@@ -36,19 +36,21 @@
                 </div>
 
                 <h2 class="heading">Contact</h2> <span i class="emailMessage span">asdfds</span>
-                <input type="email" id="UserEmail" placeholder="Email or mobile phone number" required  />
+                <input type="email" class="UserEmail" placeholder="Email or mobile phone number" required  />
 
                 <h2>Delivery</h2>
 
                 <input type="text" name="country" placeholder="country/Region" required />
-                <input type="text" placeholder="First name" id="firstName" required />
-                <input type="text" placeholder="Last name" id="lastName" required />
-                <input type="text" placeholder="Company (optional)" id="company"  />
+                <input type="text" placeholder="First name" class="firstName" required />
+                <input type="text" placeholder="Last name" class="lastName" required />
+                <input type="text" placeholder="Company (optional)" class="company"  />
                 <input type="text" placeholder="Address" required />
                 <input type="text" placeholder="Apartment,suite,etc.(optional)"  />
-                <input type="text" placeholder="City" id="city" required />
-                <input type="text" placeholder="State" id="state" required />
-                <input type="text" placeholder="Zip Code" id="zip" required />
+                <div class="cityStateZip">
+                <input type="text" placeholder="City" class="city" required />
+                <input type="text" placeholder="State" class="state" required />
+                <input type="text" placeholder="Zip Code" class="zip" required />
+            </div>
                 <input type="text" placeholder="Phone" required />
 <br>
                 <h2>Shipping method</h2>
@@ -70,8 +72,8 @@
                     </div>
                     </div>
                     <input type="text" id="creditCardNumber" placeholder="xxxx xxxx xxxx xxxx" maxlength="19" class="card-number" />
-                  <input type="text" id="expiryDate" placeholder="MM / YY" maxlength="7" />
-                  <input type="text" id="cvv" placeholder="CVV" maxlength="3" />
+                  <input type="text" id="expiryDate" class="expiry-Date" placeholder="MM / YY" maxlength="7" />
+                  <input type="text" id="cvv" placeholder="CVV" class="cvv" maxlength="3" />
                     <input type="text" class="card-name" placeholder="Name on Card" />
                 </div>
 

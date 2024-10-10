@@ -55,7 +55,6 @@ h1 {
   height: 100px;
   width: 100%;
   font-size: 1rem;
-  background-color: lightcoral;
   display: none; /* Shown on smaller screens in media queries */
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
@@ -162,7 +161,7 @@ width: 30px;
   }
 
   .order-summary {
-    display: none; /* Hide main order summary */
+    display: none; 
     width: 100%;
   }
 
@@ -175,26 +174,6 @@ width: 30px;
   }
 
   .pay-btn {
-    order: 4; /* Reposition pay button */
     margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .checkout-form input,
-  .checkout-form select {
-    padding: 8px;
-  }
-
-  .pay-btn {
-    padding: 12px;
-  }
-
-  .header h1 {
-    font-size: 24px;
-  }
-
-  .order-summary {
-    font-size: 14px; /* Adjust font size for smaller screens */
   }
 }
