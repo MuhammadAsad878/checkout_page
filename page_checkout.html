@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/ordersummary.css" />
+    <link rel="stylesheet" href="/assets/css/payment.css" />
+    <link rel="stylesheet" href="/assets/css/checkout.css" />
+</head>
+
+<body>
+    <div class="checkout-container">
+        <header class="header">
+            <h1>Islam Jar</h1>
+        </header>
+        <section class="checkout-section">
+            <form class="checkout-form" action="">
+                <div class="orderSummary">
+                    <h3>Order Summary</h3>
+                    <button type="button" id="drop_summary">
+                        <img src="./assets/images/down_drop.svg" alt="" />
+                    </button>
+                </div>
+                <div class="dropSummary order-summary">
+                    <h2>Order Summary</h2>
+                    <p>Product Name: Studio Headphones</p>
+                    <p>Price: $150.00</p>
+                    <div class="totals">
+                        <p>Subtotal: $150.00</p>
+                        <p>Shipping: $4.00</p>
+                        <p>Total: $154.00</p>
+                    </div>
+                </div>
+
+                <h2 class="heading">Contact</h2> <span i class="emailMessage span">asdfds</span>
+                <input type="email" id="UserEmail" placeholder="Email or mobile phone number" required  />
+
+                <h2>Delivery</h2>
+
+                <input type="text" name="country" placeholder="country/Region" required />
+                <input type="text" placeholder="First name" id="firstName" required />
+                <input type="text" placeholder="Last name" id="lastName" required />
+                <input type="text" placeholder="Company (optional)" id="company"  />
+                <input type="text" placeholder="Address" required />
+                <input type="text" placeholder="Apartment,suite,etc.(optional)"  />
+                <input type="text" placeholder="City" id="city" required />
+                <input type="text" placeholder="State" id="state" required />
+                <input type="text" placeholder="Zip Code" id="zip" required />
+                <input type="text" placeholder="Phone" required />
+<br>
+                <h2>Shipping method</h2>
+                <div class="shipping">
+                    <p>USPS Ground 4.00$</p>
+                    <p>2 Business Days</p>
+                </div>
+<br>
+                <h2>Payment</h2>
+                <p>All Transacitons are secured and encrypted</p><br>
+                <div class="payment">
+                    <div class="credit-card">
+                            <p>Credit Card</p>
+                        <div class="images">
+                        <img src="./assets/images/mastercard.svg" alt="" style="display: inline;">
+                        <img src="./assets/images/unionpay.svg" alt="" style="display: inline;">
+                        <img src="./assets/images/visa.svg" alt="" style="display: inline;">
+                        <img src="./assets/images/abc.svg" alt="" style="display: inline;">
+                    </div>
+                    </div>
+                    <input type="text" id="creditCardNumber" placeholder="xxxx xxxx xxxx xxxx" maxlength="19" class="card-number" />
+                  <input type="text" id="expiryDate" placeholder="MM / YY" maxlength="7" />
+                  <input type="text" id="cvv" placeholder="CVV" maxlength="3" />
+                    <input type="text" class="card-name" placeholder="Name on Card" />
+                </div>
+
+                <button class="pay-btn">Pay now</button>
+            </form>
+
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <p>Product Name: Studio Headphones</p>
+                <p>Price: $150.00</p>
+                <div class="totals">
+                    <p>Subtotal: $150.00</p>
+                    <p>Shipping: $4.00</p>
+                    <p>Total: $154.00</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./assets/js/checkoutPage.js" defer></script>
+</body>
+
+</html>

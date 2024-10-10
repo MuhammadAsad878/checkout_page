@@ -1,0 +1,10 @@
+body * input {
+  border:  solid 1px lightgray;
+}
+
+/* Styles for input on focus */
+body * input:focus {
+  border: solid 3px  rgb(98, 128, 213) !important; /* Change border color on focus */
+  box-shadow: -0px 0px 4px royalblue;
+  transition: box-shadow 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}

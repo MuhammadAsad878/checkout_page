@@ -1,0 +1,53 @@
+.payment {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 215, 215);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 300px;
+  margin:10px 0px;
+  width: 100%;
+  grid-column-gap: 15px;
+  padding: 5px 30px;
+  }
+  .payment * input{
+    border-radius: 7px;
+    padding: 7px;
+    ;
+  }
+  .credit-card{
+    padding: 0px 10px;
+    grid-column: 1/span 2;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  .credit-card p{
+    font-size: 1.3rem;
+  }
+  .credit-card .images img{
+    float: right;
+    margin: 4px;
+  }
+  
+ 
+
+  .card-number{
+    grid-column: 1/span 2;
+  }
+  .expiry-date{
+
+  }
+  .security-code{
+
+  }
+  .card-name{
+    grid-column: 1/span 2;
+  }
+
+  
+ 
+  
