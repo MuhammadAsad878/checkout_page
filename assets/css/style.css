@@ -4,6 +4,7 @@ body * input {
 
 /* Styles for input on focus */
 body * input:focus {
+  outline:none;
   border: solid 3px  rgb(98, 128, 213) !important; /* Change border color on focus */
   box-shadow: -0px 0px 4px royalblue;
   transition: box-shadow 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
